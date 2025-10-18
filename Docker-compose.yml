@@ -27,7 +27,7 @@ services:
     image: gokavarapuabhi/2300031133-exam-frontend:latest
     container_name: react
     ports:
-      - "3000:80"
+      - "3000:2001"
     depends_on:
       - backend
     restart: on-failure
@@ -39,4 +39,3 @@ volumes:
 
 networks:
   springboot-mysql-net:
-  
